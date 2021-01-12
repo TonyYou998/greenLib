@@ -1,5 +1,6 @@
 header {
   background-image: url("../../img/home-v1-news-event-banner.jpg");
+  background-image: url("../img/home-v1-news-event-banner.jpg");
   height: 800px;
 }
 
@@ -44,11 +45,24 @@ header .container .container__header .big_new {
   margin-top: 100px;
 }
 
-header .container .container__header .big_new .carousel .carousel-item .big_new__button {
+header
+  .container
+  .container__header
+  .big_new
+  .carousel
+  .carousel-item
+  .big_new__button {
   margin: 30px;
 }
 
-header .container .container__header .big_new .carousel .carousel-item .big_new__button a {
+header
+  .container
+  .container__header
+  .big_new
+  .carousel
+  .carousel-item
+  .big_new__button
+  a {
   padding: 12px 22px;
   border-radius: 1px;
 }
@@ -60,6 +74,7 @@ header .container .container__header .big_new .carousel .carousel-item .big_new_
 
 .welcome .welcome__fix .welcome__wrapper .welcome__img {
   background-image: url("../../img/welcome-img-home-v1.jpg");
+  background-image: url("../img/welcome-img-home-v1.jpg");
   height: inherit;
   background-position: right;
   background-size: cover;
@@ -99,6 +114,7 @@ header .container .container__header .big_new .carousel .carousel-item .big_new_
 
 .new_books {
   background-image: url("../../img/home-v1-news-event-banner.jpg");
+  background-image: url("../img/home-v1-news-event-banner.jpg");
   height: 1002px;
 }
 
