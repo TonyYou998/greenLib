@@ -1,0 +1,149 @@
+header {
+  background-image: url("../../img/home-v1-news-event-banner.jpg");
+  height: 800px;
+}
+
+header .container {
+  position: relative;
+}
+
+header .container .container__header {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+header .container .container__header .wrapper .logo {
+  color: green;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .container .container__header .wrapper .col-9 .contact {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 300;
+}
+
+header .container .container__header .wrapper .col-9 .contact i {
+  color: green;
+}
+
+header .container .container__header .wrapper .col-9 .nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.349);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+header .container .container__header .wrapper .col-9 .nav nav {
+  width: 100%;
+  padding: 0;
+}
+
+header .container .container__header .big_new {
+  margin-top: 100px;
+}
+
+header .container .container__header .big_new .carousel .carousel-item .big_new__button {
+  margin: 30px;
+}
+
+header .container .container__header .big_new .carousel .carousel-item .big_new__button a {
+  padding: 12px 22px;
+  border-radius: 1px;
+}
+
+.welcome .welcome__fix {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.welcome .welcome__fix .welcome__wrapper .welcome__img {
+  background-image: url("../../img/welcome-img-home-v1.jpg");
+  height: inherit;
+  background-position: right;
+  background-size: cover;
+  width: 100%;
+}
+
+.welcome .welcome__fix .welcome__wrapper .welcome__intro .welcome__tittle {
+  font-weight: 700;
+}
+
+.welcome .welcome__fix .welcome__wrapper .welcome__intro p {
+  color: #7b7b7b;
+}
+
+.welcome .welcome__fix .welcome__wrapper .welcome__intro a {
+  padding: 12px 22px;
+  border-radius: 1px;
+}
+
+.welcome .welcome__fix .welcome__wrapper .counter ul li {
+  text-align: center;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+}
+
+.welcome .welcome__fix .welcome__wrapper .counter ul li .counter__item {
+  align-items: center;
+  padding: 30px 35px;
+}
+
+.welcome .welcome__fix .welcome__wrapper .counter ul li .counter__item i {
+  font-size: 50px;
+  margin-right: 18px;
+}
+
+.new_books {
+  background-image: url("../../img/home-v1-news-event-banner.jpg");
+  height: 1002px;
+}
+
+.new_books .container .new_books__header {
+  color: white;
+  padding: 80px 0;
+}
+
+.new_books .container .new_books__header h1 {
+  font-size: 35px;
+}
+
+.new_books .container .new_books__header p {
+  color: gray;
+  font-style: italic;
+}
+
+.new_books .new_books__item {
+  width: 100%;
+}
+
+.new_books .new_books__item .new_books__item--top {
+  padding: 0;
+}
+
+.new_books .new_books__item .new_books__item--top img {
+  width: 100%;
+}
+
+.new_books .new_books__item .new_books__item--down {
+  padding: 0;
+}
+
+.new_books .new_books__item .new_books__item--down img {
+  width: 100%;
+}
+
+.new_books .new_books__button {
+  width: 5%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.new_books .new_books__button a {
+  padding: 12px 22px;
+  border-radius: 1px;
+}
+/*# sourceMappingURL=main.css.map */

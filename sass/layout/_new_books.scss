@@ -1,0 +1,42 @@
+.new_books {
+  background-image: url("../../img/home-v1-news-event-banner.jpg");
+  height: 1002px;
+  .container {
+    .new_books__header {
+      color: white;
+      padding: 80px 0;
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        color: gray;
+        font-style: italic;
+      }
+    }
+  }
+
+  .new_books__item {
+    width: 100%;
+    .new_books__item--top {
+      padding: 0;
+      img {
+        width: 100%;
+      }
+    }
+    .new_books__item--down {
+      padding: 0;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .new_books__button {
+    width: 5%;
+    padding-top: 50px;
+    margin: 0 auto;
+    a {
+      padding: 12px 22px;
+      border-radius: 1px;
+    }
+  }
+}

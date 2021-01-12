@@ -1,0 +1,50 @@
+.welcome {
+  .welcome__fix {
+    width: 90%;
+    margin-left: 10%;
+    .welcome__wrapper {
+      // position: initial;
+
+      .welcome__img {
+        background-image: url("../../img/welcome-img-home-v1.jpg");
+        height: inherit;
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+      }
+      .welcome__intro {
+        .welcome__tittle {
+          font-weight: 700;
+        }
+        p {
+          color: rgb(123, 123, 123);
+        }
+        a {
+          padding: 12px 22px;
+          border-radius: 1px;
+        }
+      }
+      .counter {
+        // height: 100%;
+        ul {
+          li {
+            text-align: center;
+            list-style: none;
+            color: white;
+            font-size: 20px;
+            height: 100%;
+            .counter__item {
+              align-items: center;
+
+              i {
+                font-size: 50px;
+                margin-right: 18px;
+              }
+              padding: 30px 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
