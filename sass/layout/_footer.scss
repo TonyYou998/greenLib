@@ -1,0 +1,23 @@
+footer {
+  background-color: black;
+  margin-top: 10px;
+  color: gray;
+  padding: 20px 0;
+  .container {
+    .row {
+      justify-content: space-between;
+    }
+  }
+
+  .menu {
+    width: 45%;
+    ul li {
+      display: inline;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+    }
+  }
+}

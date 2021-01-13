@@ -1,0 +1,30 @@
+.new_n_event {
+  .new_n_event__container {
+    .new_n_event__content {
+      .new_n_event__main {
+        .card {
+          border: none;
+          img {
+            border-radius: 0;
+            width: 100%;
+          }
+          .card-body {
+            a {
+              padding: 12px 22px;
+              border-radius: 1px;
+            }
+          }
+        }
+      }
+      .new_n_event__sub {
+        .card {
+          img {
+            width: 100%;
+            border-radius: 0;
+          }
+          border: none;
+        }
+      }
+    }
+  }
+}
